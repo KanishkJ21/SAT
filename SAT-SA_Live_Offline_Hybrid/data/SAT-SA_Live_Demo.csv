@@ -1,0 +1,13 @@
+timestamp,asset_code,alert_id,severity,investigator,investigation_type,root_cause,message
+2026-09-17T06:34:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:35:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:36:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:37:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:38:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:39:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:40:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:41:23.096591+00:00,CSE-SOC-01,4625,High,Demo Analyst,Authentication,Failed login for service account,Failed login for service account
+2026-09-17T06:42:23.096591+00:00,CSE-SOC-01,1000,Info,Demo Analyst,System,Routine system event,Routine system event
+2026-09-17T06:43:23.096591+00:00,CSE-SOC-01,1000,Info,Demo Analyst,System,Routine system event,Routine system event
+2026-09-17T06:44:23.096591+00:00,CSE-SOC-01,1000,Info,Demo Analyst,System,Routine system event,Routine system event
+2026-09-17T06:45:23.096591+00:00,CSE-SOC-01,1000,Info,Demo Analyst,System,Routine system event,Routine system event
