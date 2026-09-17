@@ -1,30 +1,45 @@
-# SAT-SA Live + Offline Hybrid
+# SAT-SA — Supervisory Analytics Tool
 
-SAT-SA is a local Streamlit prototype for supervisory analytics of SOC evidence.
+**SAT-SA** is an offline, air-gapped supervisory analytics platform designed to assist SOC assessment by analyzing security alerts, event logs, and investigation evidence.
 
-It supports:
-- Offline CSV and JSON evidence import
-- Windows Event Log collection
+It provides a unified workflow for **evidence ingestion, normalization, local storage, analytics, explainable findings, visualization, and human-in-the-loop assessment**.
+
+### Key Features
+
+- Offline CSV and JSON evidence analysis
+- Live Windows Event Log collection
 - Linux log-file collection
-- Demo log simulation
-- SQLite evidence storage
-- Execution/anomaly style findings
-- Evidence-backed findings and human review
-- Fully local/offline operation after dependencies are installed
+- Controlled Demo Simulator
+- SQLite-based local evidence storage
+- Authentication failure detection
+- Repeated event pattern detection
+- High-severity event concentration detection
+- Evidence-backed and explainable findings
+- Interactive analytics dashboard
+- Finding review and false-positive workflow
+- Audit trail for assessment activities
+- Designed for local and air-gapped environments
 
-## Run on Windows
+### Architecture
 
-    py -m venv .venv
-    .venv\Scripts\python.exe -m pip install -r requirements.txt
-    .venv\Scripts\python.exe -m streamlit run sat_sa\app.py
+Evidence Sources
+       ↓
+Ingestion & Normalization
+       ↓
+Local Evidence Storage
+       ↓
+SAT-SA Analytics Engine
+       ↓
+Findings & Risk Indicators
+       ↓
+Evidence Drill-Down
+       ↓
+Human Assessor Review
 
-PowerShell execution-policy changes are not required.
+Technology Stack
 
-## CSV import
+Python • Streamlit • SQLite • Pandas • NumPy • pywin32
 
-The importer accepts common SOC/evidence column names such as:
-timestamp, host, hostname, asset_code, source, log_source, event_code,
-event_id, alert_id, level, severity, category, investigation_type,
-username, investigator, message, description, root_cause.
+SAT-SA is developed as an academic/prototype implementation demonstrating how offline supervisory analytics can support SOC assessment and reduce the manual effort involved in reviewing large volumes of security evidence.
 
-The original columns are retained as raw evidence.
+Author: Kanishk Jha

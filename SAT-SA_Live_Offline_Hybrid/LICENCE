@@ -1,0 +1,8 @@
+
+### One small recommendation
+
+For the **GitHub repository**, I'd also change the repository's short description from the generic/current one to:
+
+> **Offline, air-gapped supervisory analytics platform for SOC evidence assessment with live log collection, evidence analysis, explainable findings, and human-in-the-loop review.**
+
+That gives a judge immediately looking at the repository a much clearer understanding of what SAT-SA actually does.
