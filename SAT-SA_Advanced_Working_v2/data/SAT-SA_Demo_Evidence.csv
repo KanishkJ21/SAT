@@ -1,0 +1,16 @@
+alert_id,entity_code,entity_name,asset_code,timestamp,severity,category,closure_minutes,status,escalation_recorded,investigation_type,investigator,remediation_recorded,root_cause
+ALT-001,ENT-001,Alpha Finance,AST-001,2026-09-01 09:12,Critical,Malware,5,Closed,Yes,Standard IR,Analyst-01,No,Pending review
+ALT-002,ENT-001,Alpha Finance,AST-002,2026-09-01 10:25,High,Credential Abuse,9,Closed,No,Template,Analyst-02,No,Pending review
+ALT-003,ENT-001,Alpha Finance,AST-001,2026-09-01 11:40,Medium,Phishing,45,Closed,Yes,Standard IR,Analyst-01,Yes,Closed
+ALT-004,ENT-001,Alpha Finance,AST-001,2026-09-02 08:10,High,Malware,6,Closed,No,Template,Analyst-02,No,Pending review
+ALT-005,ENT-002,Beta Energy,AST-003,2026-09-01 09:30,Critical,Malware,22,Closed,Yes,Standard IR,Analyst-03,Yes,Closed
+ALT-006,ENT-002,Beta Energy,AST-004,2026-09-01 12:15,High,Credential Abuse,65,Closed,Yes,Deep Investigation,Analyst-03,Yes,Closed
+ALT-007,ENT-002,Beta Energy,AST-003,2026-09-02 14:05,Medium,Phishing,55,Closed,No,Standard IR,Analyst-04,Yes,Closed
+ALT-008,ENT-002,Beta Energy,AST-004,2026-09-03 09:45,High,Data Exfiltration,47,Closed,Yes,Deep Investigation,Analyst-03,Yes,Closed
+ALT-009,ENT-003,Gamma Telecom,AST-005,2026-09-01 08:55,Critical,Malware,6,Closed,No,Template,Analyst-05,No,Pending review
+ALT-010,ENT-003,Gamma Telecom,AST-006,2026-09-01 10:10,High,Credential Abuse,8,Closed,No,Template,Analyst-05,No,Pending review
+ALT-011,ENT-003,Gamma Telecom,AST-005,2026-09-02 11:25,High,Phishing,9,Closed,No,Template,Analyst-05,No,Pending review
+ALT-012,ENT-003,Gamma Telecom,AST-006,2026-09-03 16:20,Medium,Phishing,35,Closed,No,Standard IR,Analyst-06,Yes,Closed
+ALT-013,ENT-004,Delta Healthcare,AST-007,2026-09-01 09:05,Critical,Malware,43,Closed,Yes,Deep Investigation,Analyst-07,Yes,Closed
+ALT-014,ENT-004,Delta Healthcare,AST-008,2026-09-01 13:10,High,Credential Abuse,50,Closed,Yes,Deep Investigation,Analyst-07,Yes,Closed
+ALT-015,ENT-004,Delta Healthcare,AST-007,2026-09-02 10:30,High,Data Exfiltration,0,Open,Yes,Deep Investigation,Analyst-07,No,In progress
